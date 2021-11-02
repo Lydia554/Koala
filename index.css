@@ -1,0 +1,212 @@
+html,body{
+    height: 100vh;
+  }
+  #box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  #head {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #c7c5cb;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  #left-ear{
+    z-index: -2;
+    position: absolute;
+    top: -30px;
+    left: -50px;
+    width: 120px;
+    height: 130px;
+    background-color: #C7C5CB;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  #left-inner-ear{
+    z-index: 5;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: #FA9DB0;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  #right-ear{
+    z-index: -2;
+    position: absolute;
+    top: -30px;
+    left: 130px;
+    width: 120px;
+    height: 130px;
+    background-color: #C7C5CB;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  #right-inner-ear{
+    z-index: -1;
+    position: absolute;
+    top: 40px;
+    left: 28px;
+    width: 50px;
+    height: 50px;
+    background-color: #FA9DB0;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  #nose {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 40px;
+    height: 50px;
+    background-color: #5c586f;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  #left-eye {
+    position: absolute;
+    left: 35px;
+    top: 80px;
+    width: 40px;
+    height: 20px;
+    border-radius: 50% / 60% 60% 40% 40%;
+    border: 8px solid #423e4f;
+    border-bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: grey;
+    
+  }
+  
+  #right-eye {
+    position: absolute;
+    left: 125px;
+    top: 80px;
+    width: 40px;
+    height: 20px; 
+   border-radius: 50% / 60% 60% 40% 40%;
+    border: 8px solid #423e4f;
+    border-bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: grey;
+  }
+  
+  #left-cheek {
+    position: absolute;
+    top: 108px;
+    left: 20px;
+    width: 50px;
+    height: 30px;
+    background-color: #e8e8e8;
+    border-radius: 50%;
+     -webkit-animation-name: cheek-shrink; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: infinite;
+    animation-name: cheek-shrink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  #right-cheek {
+    position: absolute;
+    top: 108px;
+    left: 130px;
+    width: 50px;
+    height: 30px;
+    background-color: #e8e8e8;
+    border-radius: 50%;
+    -webkit-animation-name: cheek-shrink; 
+    -webkit-animation-duration: 1s; 
+    -webkit-animation-iteration-count: infinite;
+    animation-name: cheek-shrink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  #mouth1 {
+    position: absolute;
+    left: 70px;
+    top: 140px;
+    width: 40px;
+    height: 20px; 
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 8px solid #423e4f;
+    border-bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: rotate(180deg) scale(0.8); 
+    -ms-transform: rotate(180deg) scale(0.8);
+    transform: rotate(180deg) scale(0.8); 
+  }
+  
+  #mouth2 {
+    position: absolute;
+    left: 95px;
+    top: 140px;
+    width: 40px;
+    height: 20px; 
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 8px solid #423e4f;
+    border-bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: rotate(180deg) scale(0.8); 
+    -ms-transform: rotate(180deg) scale(0.8); 
+    transform: rotate(180deg) scale(0.8); 
+  }
+  
+  #koala-body{
+    z-index: -1;
+    position: absolute;
+    left: 5px;
+    top: 170px;
+    width: 200px;
+    height: 120px; 
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 50px solid #B2B0BC;
+    background-color: #E8E8E8;
+    border-bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  @keyframes cheek-shrink{
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(0.8);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+  
+  
